@@ -23,6 +23,11 @@ app.get('/dogs/:id', (req, res) => {
   });
 })
 
+app.get('/dogs/new', (req, res) => {
+  console.log('dogs/new')
+  // res.render("new.ejs");
+});
+
 
 
 
