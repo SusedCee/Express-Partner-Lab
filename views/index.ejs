@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title></title>
+<!--         <link rel="stylesheet" href="/css/app.css"> -->
+    </head>
+    <body>
+        <ul>
+             <% for(let i = 0; i < dog.length; i++){ %>
+            <li><a href="/dogs/<%=i%>"><%=dogs[i].name %></a> is a <%=dogs[i].size%> <%=dogs[i].color;%> dog.
+            <% if(dogs[i].spayedNeutered === true){ %>
+                This dog is ready to adopt.
+            <% } else { %>
+                This dog is not ready to adopt yet.
+
+            <% } %>
+
+            </li>
+
+        </ul>
+    </body>
+</html>

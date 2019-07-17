@@ -1,27 +1,27 @@
-const dog = [
+const dogs = [
 	{
 		name: "Shenzie", 
 		size: "small",
 		color: "brindel",
-		spayed/neutered: true
+		spayedNeutered: true
 	},
 	{
 		name: "Beyonce", 
 		size: "small",
 		color: "caramel",
-		spayed/neutered: true
+		spayedNeutered: true
 	},
 		{
 		name: "Simba", 
 		size: "medium",
 		color: "golden",
-		spayed/neutered: true
+		spayedNeutered: true
 	},
 		{
 		name: "Cosmo", 
 		size: "small",
 		color: "golden",
-		spayed/neutered: false
+		spayedNeutered: false
 	}
 ];
 
